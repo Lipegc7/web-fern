@@ -16,7 +16,13 @@ body {
 }
 
 #form-container {
-    flex: 1;
+    flex: 1.4;
+    color: white;
+    background-image: url('../img/pattern.png');
+}
+
+#form-container img {
+    background-size: cover;
 }
 
 #brand {
@@ -69,4 +75,82 @@ body {
     border-radius: 50%;
     margin-bottom: 1rem;
     align-items: center;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.user-role {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+#form-inner {
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-inner h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#form-inner p {
+    margin-bottom: 1rem;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+#register-form input {
+    padding: 0.8rem 0.6rem;
+    border-radius: 3px;
+    border: none;
+}
+
+#name-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#email {
+    max-width: 100%;
+}
+
+#register-form input[type='submit'] {
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#register-form input[type='submit']:hover {
+    background-color: white;
+    color: #0075ff;
+    transition: 0.4s;
+}
+
+#benefits {
+    text-align: left;
+    align-self: start;
+    font-size: 1.4rem;
+}
+
+#benefits h4 {
+    margin-bottom: 1rem;
+    list-style-position: inside;
+    gap: 0.5rem;
 }
